@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <fieldset id="score">
+        <legend>Score</legend>
+        <div>Player: <span id="human-score"></span></div>
+        <div>Computer: <span id="computer-score"></span></div>
+    </fieldset>
+    <div id="game-container">
+        <div id="human-choice">
+            <button class="game-btn" id="rock" value="rock">🏔</button>
+            <button class="game-btn" id="paper" value="paper">📄</button>
+            <button class="game-btn" id="scissors" value="scissors">✂️</button>
+        </div>
+        <div id="game-log"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#score {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  font-size: 24px;
+  margin-bottom: 8px;
+  border: 1px solid black;
+}
+
+#score > legend {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#game-container {
+  display: flex;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+#human-choice {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#game-log {
+  flex-grow: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.game-btn {
+  font-size: 40px;
+}
